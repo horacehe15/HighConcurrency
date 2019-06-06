@@ -4,11 +4,12 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 
- * @author my
+ * @author horacehe15
   * 【volatile解决在多个线程访问共享资源时引起的数据不一致问题】
   *  一个线程负责读取当前变量并输出（Reader），一个线程负责修改当前变量并输出修改后的值（Updater）
   *  为了 维护数据一致性，需要在变量前加volatile修饰
  */
+
 
 public class VolatileFoo {
 	//init_ value 的最大值
