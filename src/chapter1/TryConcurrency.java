@@ -40,6 +40,16 @@ public class TryConcurrency {
                 enjoyMusic();
             }
         }.start();
+        
+/** 	效果一致
+ *        new Thread() {
+        	@Override
+            public void run() {
+        		browseNews();
+            }
+        }.start();*/
+        
         browseNews();
+        
     }
 }
